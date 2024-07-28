@@ -41,7 +41,7 @@
     </style>
 </head>
 <body>
-    <h1>Enter Parameters</h1>
+    <h1>Escoger parámetros</h1>
     <form id="simulationForm">
         <label for="b">b (Rozamiento):</label>
         <input type="range" id="b" name="b" min="0.001" max="1" step="0.001" value="1">
@@ -117,9 +117,9 @@
         function resetForm() {
             document.getElementById('simulationForm').reset();
             document.getElementById('b_value').textContent = '1';
-            document.getElementById('v0_value').textContent = '50.4';
+            document.getElementById('v0_value').textContent = '50';
             document.getElementById('u_value').textContent = '20';
-            document.getElementById('alfa_value').textContent = '360';
+            document.getElementById('alfa_value').textContent = '180';
             document.getElementById('h0_value').textContent = '10';
             document.getElementById('angulo_value').textContent = '15';
             document.getElementById('result_img').src = '';
